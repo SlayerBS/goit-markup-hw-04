@@ -136,7 +136,8 @@ a {
   padding-bottom: 32px;
 }
 .menu-link:hover,
-.menu-link:focus {
+.menu-link:focus,
+.menu-link:active {
   color: var(--accent-color);
 }
 
@@ -220,16 +221,16 @@ a {
 }
 
 .antenna::before {
-  background-image: url(/images/svg/antenna.svg);
+  background-image: url(./images/svg/antenna.svg);
 }
 .clock::before {
-  background-image: url(/images/svg/clock.svg);
+  background-image: url(./images/svg/clock.svg);
 }
 .comp::before {
-  background-image: url(/images/svg/diagram.svg);
+  background-image: url(./images/svg/diagram.svg);
 }
 .man::before {
-  background-image: url(/images/svg/astronaut.svg);
+  background-image: url(./images/svg/astronaut.svg);
 }
 
 .feature .title {
